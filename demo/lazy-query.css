@@ -1,0 +1,36 @@
+a {
+  font-size: 50px;
+}
+@media (max-width: 599px) {
+  a {
+    color: blue;
+  }
+  a {
+    color: green;
+  }
+  a {
+    color: black;
+  }
+}
+@media (min-width: 600px) and (max-width: 991px) {
+  a {
+    color: red;
+  }
+  a {
+    color: green;
+  }
+  a {
+    color: grey;
+  }
+}
+@media (min-width: 992px) {
+  a {
+    color: blue;
+  }
+  a {
+    color: red;
+  }
+  a {
+    color: #EEE;
+  }
+}
