@@ -1,36 +1,69 @@
+div {
+  display: none;
+}
 a {
   font-size: 50px;
+}
+#g {
+  display: block;
 }
 @media (max-width: 599px) {
   a {
     color: blue;
   }
+  #md {
+    display: block;
+  }
   a {
     color: green;
   }
+  #mt {
+    display: block;
+  }
   a {
     color: black;
+  }
+  #m {
+    display: block;
   }
 }
 @media (min-width: 600px) and (max-width: 991px) {
   a {
     color: red;
   }
+  #td {
+    display: block;
+  }
   a {
     color: green;
   }
+  #mt {
+    display: block;
+  }
   a {
     color: grey;
+  }
+  #t {
+    display: block;
   }
 }
 @media (min-width: 992px) {
   a {
     color: blue;
   }
+  #md {
+    display: block;
+  }
   a {
     color: red;
   }
+  #td {
+    display: block;
+  }
   a {
     color: #EEE;
+  }
+  #d {
+    display: block;
   }
 }
