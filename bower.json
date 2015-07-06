@@ -1,0 +1,20 @@
+{
+  "name": "lazy-media-query-less",
+  "version": "1.0",
+  "homepage": "https://github.com/louislam/lazy-query-less",
+  "authors": [
+    "Louis Lam"
+  ],
+  "description": "Simple media query for handling mobile, tablet and desktop",
+  "keywords": [
+    "lazy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
